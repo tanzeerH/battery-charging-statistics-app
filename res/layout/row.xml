@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TableRow android:layout_weight="2" >
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_marginRight="5px">
+
+            <TextView
+                android:id="@+id/satrtdate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="date" />
+            <TextView
+                android:id="@+id/starttime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="time" />
+            <TextView
+               	android:id="@+id/satrtcharge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="charge" />
+            
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="5px"
+            android:orientation="vertical" >
+             <TextView
+                android:id="@+id/enddate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="date" />
+            <TextView
+                 android:id="@+id/endtime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="time" />
+            <TextView
+                android:id="@+id/endcharge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="charge" />
+        </LinearLayout>
+    </TableRow>
+
+    <TableRow android:layout_weight="1" >
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+             <TextView
+                android:id="@+id/timetaken"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="charged time" />
+            <TextView
+                 android:id="@+id/chargeincreased"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="charge increased" />
+        </LinearLayout>
+    </TableRow>
+
+</TableLayout>
